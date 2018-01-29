@@ -1,0 +1,16 @@
+Configurar tap e natural-scroll do touchpad:
+gsettings set org.gnome.desktop.peripherals.touchpad tap-to-click true
+gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
+
+Instalar Chrome:
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+sudo apt-get update ; sudo apt-get install google-chrome-stable -y
+
+Instalar Vim:
+sudo apt-get install vim
+
+Instalar Git:
+sudo apt-get install git
+git config --global user.name "diegofsousa"
+git config --global user.email "diegofernando5672@gmail.com"
