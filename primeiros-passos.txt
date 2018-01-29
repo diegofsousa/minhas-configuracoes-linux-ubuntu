@@ -27,3 +27,6 @@ Mount Point: /mnt/hd
 Adicionar link simbólico para hd no diretório "~/":
 sudo ln -s /mnt/hd /home/diego/hd
 
+Instalar VLC:
+sudo add-apt-repository ppa:videolan/stable-daily && sudo apt-get update
+sudo apt-get install vlc
