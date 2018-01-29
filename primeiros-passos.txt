@@ -14,3 +14,16 @@ Instalar Git:
 sudo apt-get install git
 git config --global user.name "diegofsousa"
 git config --global user.email "diegofernando5672@gmail.com"
+
+Montar HD na inicialização:
+Abrir ferramenta gráfica "Discos",
+Ir em "Edit Options Mount" no HD,
+Deixar assim:
+Mount at startup [x]
+Show in user interface [ ]
+Require additional authorization to mount [ ]
+Mount Point: /mnt/hd
+
+Adicionar link simbólico para hd no diretório "~/":
+sudo ln -s /mnt/hd /home/diego/hd
+
